@@ -14,38 +14,72 @@ body {
     display: flex;
 }
 .container-left {
-    height: 600px;
+    height: 550px;
     width: 280px;
     background-color: whitesmoke;
     /* position: fixed; */
+}
+button {
+    width: 280px;
+    height: 50px;
 }
 .btn {
     font-size: 20px;
     padding-top: 0%;
 }
 ul {
+    padding: 0px 0px;
+    margin-top: -8px;
     list-style: none;
+    
+}
+.icon {
+    display: flex;
+}
+
+.icon > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-size: 2rem;
 }
 .container-right {
     height: 1000px;
     width: 800px;
     margin-left: 30px;
-    background-color: aqua;
+    background-color: rgb(189, 215, 215);
     padding: 80px 100px;
 }
-/* .titile {
-    font-size: 24px;
-    text-align: center;   
-    font-weight: 700;
-    color: #6b6b93;
-    margin-bottom: 20px;
-    text-transform: uppercase;
+.item_info {
+    font-size: 15px;
+    margin-top: -50px;
+    margin-left: -60px;
 }
-.item_info .img {
-    width: 200px;
-    height: 200px;
-    background: #fff;
-    border-radius: 50%;
-    margin-bottom: 20px;
-    position: relative;
-} */
+hr {
+    color: black;
+}
+.title {
+    margin-left: -50px;
+}
+.name {
+    margin-top: 20px;
+    font-size: 35px;
+}
+.designation {
+    margin-top: 5px;
+    margin-left: 3px;
+    font-size: 15px;
+}
+table, th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.skill {
+    font-size: 20px;
+}
